@@ -40,6 +40,7 @@ aside ul li {
     border-radius: 6px;
     justify-content: center;
     font:600 18px "Titillium Web", sans-serif;
+    color: white;
 }
 
 .dashboard-btn{
@@ -48,8 +49,8 @@ aside ul li {
 }
 .logOut-btn{
     font:400 16px "Titillium Web", sans-serif;
-    position:absolute;
-    bottom: 1px;
+    position:relative;
+    top: 300px;
     
 }
 
@@ -91,8 +92,7 @@ header h4{
 
 .input-wrap{
     align-self: center;
-    margin-left: 210px;
-    position: relative;
+    margin-left: 191px;
 
 }
 
@@ -103,7 +103,7 @@ header h4{
 
 header input{
     padding:16px 54px;
-    width: 401px;
+    width: 400px;
     border: none;
     border-radius: 6px;
     background-color: #f2f2f2;
@@ -114,9 +114,9 @@ header input::placeholder{
 }
 
 .searchIcon{
-    position: absolute;
-    left: 19px;
-    top: 15px;
+    position: relative;
+    left: 42px;
+    top: 5px;
 }
 
 .aside-bottom-line{
@@ -125,4 +125,14 @@ header input::placeholder{
     bottom: 100px;
     width: 217.3px;
     border: 2px solid #eaeaea;
+}
+
+/*Here, table style is begun*/
+.table-area{
+    background-color: #fbfbfb;
+}
+
+.table-area-header ul{
+    list-style: none;
+
 }
