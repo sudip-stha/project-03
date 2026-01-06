@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Manager</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <h3>Logo</h3>
+        <nav>
+          <ul>
+            <li class="dashboard-btn">
+              <img
+                src="./images/dashboardIcon.svg"
+                alt="This is a dashboard icon."
+              />
+              Dashboard
+            </li>
+            <li class="total-contact-btn">
+              <img
+                src="./images/contactIcon.svg"
+                alt="This is a contact icon."
+              />
+              Total Contacts
+              <div class="btn-style-line"></div>
+            </li>
+            <li><div class="aside-bottom-line"></div></li>
+            <li class="logOut-btn">
+              <img
+                src="./images/logoutIcon.svg"
+                alt="This is a log out icon."
+              />Log out
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main>
+        <header>
+          <h4>Total Contacts</h4>
+          <div class="input-wrap">
+            <img
+              src="./images/searchIcon.svg"
+              alt="This is a search icon."
+              class="searchIcon"
+            />
+            <input
+              type="search"
+              name="emailId"
+              id="search"
+              placeholder="Search by Email Id......"
+            />
+          </div>
+          <div class="profile">
+            <img src="./images/profileIcon.svg" alt="This is a profile icon." />
+            <div class="profileDetail">
+              <h5>Ram Darvin</h5>
+              <p>Super Admin</p>
+            </div>
+          </div>
+        </header>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

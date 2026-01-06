@@ -1,0 +1,102 @@
+[
+    {
+        "Name":"Teja Vardhan",
+        "Designation":"VP of Technologies",
+        "Company":"Emproto Technologies",
+        "Industry":"Hospital & healthcare",
+        "Email":"tejavardhanreddy464@g....",
+        "Phone_number":7674822811,
+        "Country":"IND"
+    },
+    {
+        "Name":"Ramesh",
+        "Designation":"Director",
+        "Company":"Ashok Leyland",
+        "Industry":"Consumer goods",
+        "Email":"ramesh123@gmail.com",
+        "Phone_number":9484811811,
+        "Country":"USA"
+    },
+    {
+        "Name":"Raju",
+        "Designation":"Owner",
+        "Company":"Asian Paints",
+        "Industry":"Consumer Services",
+        "Email":"raju12@gmail.com",
+        "Phone_number":7674822811,
+        "Country":"AUS"
+    },
+    {
+        "Name":"Karthik",
+        "Designation":"Owner",
+        "Company":"Aurobindo Pharma",
+        "Industry":"Consumer Services",
+        "Email":"Karthik34@gmail.com",
+        "Phone_number":7674822811,
+        "Country":"UAE"
+    },
+     {
+        "Name":"Sanju",
+        "Designation":"CEO",
+        "Company":"Bajaj Finance",
+        "Industry":"Appreal & Fashion",
+        "Email":"sanju@gmail.com",
+        "Phone_number":7674822811,
+        "Country":"IND"
+    },
+     {
+        "Name":"Rakesh",
+        "Designation":"Founder",
+        "Company":"Tata Motors",
+        "Industry":"Appreal & Fashion",
+        "Email":"rakeshram@gmail.com",
+        "Phone_number":7674822811,
+        "Country":"USA"
+    },
+     {
+        "Name":"Teja Vardhan",
+        "Designation":"CIO",
+        "Company":"Bharat Petroleum",
+        "Industry":"Oil & Energy",
+        "Email":"tejavardhanreddy464@g.......",
+        "Phone_number":7674822811,
+        "Country":"UAE"
+    },
+     {
+        "Name":"Teja Vardhan",
+        "Designation":"Founder",
+        "Company":"Whirlpool of India",
+        "Industry":"Oil & Energy",
+        "Email":"tejavardhanreddy464@g.....",
+        "Phone_number":7674822811,
+        "Country":"IND"
+    },
+     {
+        "Name":"Teja Vardhan",
+        "Designation":"CTO",
+        "Company":"Ajanta Pharma",
+        "Industry":"Logistics",
+        "Email":"tejavardhanreddy464@g......",
+        "Phone_number":7674822811,
+        "Country":"IND"
+    },
+     {
+        "Name":"Teja Vardhan",
+        "Designation":"Director",
+        "Company":"Reliance Industries",
+        "Industry":"Internet",
+        "Email":"tejavardhanreddy464@g......",
+        "Phone_number":7674822811,
+        "Country":"IND"
+    },
+     {
+        "Name":"Teja Vardhan",
+        "Designation":"Founder",
+        "Company":"Emproto Technologies",
+        "Industry":"Retail",
+        "Email":"tejavardhanreddy464@g.....",
+        "Phone_number":7674822811,
+        "Country":"IND"
+    }
+
+]

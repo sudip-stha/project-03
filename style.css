@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+}
+
+/*Here, aside style is begun*/
+
+aside{
+    background-color: #CEF3FF;
+    height: 100vh;
+}
+aside h3{
+    margin: 13px 50px;
+    font:600 40px "Titillium Web", sans-serif;
+    color: #0884FF;
+}
+
+aside ul{
+    list-style: none;
+    margin-top: 52px;
+}
+
+aside ul li {
+    margin: 30px 20px;
+    padding: 10px 10px;
+    display: flex;
+    gap: 8px;
+    align-items: center; 
+}
+
+.total-contact-btn{
+    background-color: #2DA5FC;
+    border-radius: 6px;
+    justify-content: center;
+    font:600 18px "Titillium Web", sans-serif;
+}
+
+.dashboard-btn{
+    font:600 18px "Titillium Web", sans-serif;
+    
+}
+.logOut-btn{
+    font:400 16px "Titillium Web", sans-serif;
+    position:absolute;
+    bottom: 1px;
+    
+}
+
+.btn-style-line{
+    height: 35px;
+    border:1.6px solid white;
+    margin-left: 9px;
+    border-radius: 5px;
+}
+
+/*Here, header style is begun*/
+header{
+    display: flex;
+    gap: 160px;
+    padding: 20px;
+    border-bottom: 2px solid #eaeaea;
+}
+
+header h4{
+    font: 600 32px "Titillium Web",sans-serif;
+    color: rgba(69,69, 69, 0.8);
+}
+
+.profile{
+    width: 145px;
+    display:flex;
+    gap: 12px;
+
+}
+.profile h5{
+    font: 600 16px "Titillium Web", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.profile p{
+    font: 400 14px "Titillium Web", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.input-wrap{
+    align-self: center;
+    margin-left: 210px;
+    position: relative;
+
+}
+
+.input-wrap img{
+    width: 16px;
+    height: 16px;
+}
+
+header input{
+    padding:16px 54px;
+    width: 401px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+}
+
+header input::placeholder{
+    font: 400 16px "Titillium Web",sans-serif;
+}
+
+.searchIcon{
+    position: absolute;
+    left: 19px;
+    top: 15px;
+}
+
+.aside-bottom-line{
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    width: 217.3px;
+    border: 2px solid #eaeaea;
+}
