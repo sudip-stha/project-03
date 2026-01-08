@@ -232,8 +232,8 @@ table tbody tr:nth-child(even){
     background-color: rgba(178,223,255,0.3);
 }
 
-table tbody tr:hover{
+/* table tbody tr:hover{
     background-color: #fff;
     border: 1px solid black;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.2);
-}
+} */

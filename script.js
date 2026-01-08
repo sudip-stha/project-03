@@ -1,11 +1,20 @@
+let contactTable = document.querySelector(".contact-table-body");
+let searchData = document.querySelector("#search");
+let updateData = [];
+let actualData = [];
 
-let contactTable = document.querySelector(".contact-table");
+fetch("./contact.json")
+  .then((response) => response.json())
+  .then((data) => {
+    actualData = [...data];
+    searching();
+    initialData(actualData);
+  })
+  .catch((error) => console.error(error));
 
-async function contactDetail() {
-  const response = await fetch("./contact.json");
-  const data = await response.json();
-
-  data.forEach((contact) => {
+function initialData(dataArr) {
+  contactTable.innerHTML = " ";
+  dataArr.forEach((contact) => {
     let row = `<tr>
     <td><input type="checkbox" name="" id="" /></td>
     <td>${contact.Name}</td>
@@ -15,8 +24,8 @@ async function contactDetail() {
     <td> ${contact.Email}</td>
     <td> ${contact.Phone_number}</td>
     <td> ${contact.Country}</td>    
-     <td>
-    <img src="./images/edit.svg" alt="This is a edit icon." class="edit" />
+    <td>
+    <img src="./images/edit.svg" alt="This is a edit icon." class="edit"/>
     <img
     src="./images/delete.svg"
     alt="This is a delete icon."
@@ -24,11 +33,21 @@ async function contactDetail() {
     </td>
     </tr>`;
     contactTable.innerHTML += row;
-    //'name' is deprecated.
   });
 }
 
-contactDetail()
-document.querySelector(".edit").addEventListener("click", () => {
-  console.log("clicked..");
-});
+function searching() {
+  searchData.addEventListener("input", (e) => {
+    let userInput = e.target.value;
+
+    updateData = actualData.filter((contact) => {
+      return contact.Email === userInput;
+    });
+    if (userInput) {
+      initialData(updateData);
+    } else {
+      initialData(actualData);
+    }
+  });
+}
+
