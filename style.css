@@ -14,7 +14,6 @@
 
 aside{
     background-color: #CEF3FF;
-    height: 100vh;
 }
 aside h3{
     margin: 13px 50px;
@@ -35,32 +34,42 @@ aside ul li {
     align-items: center; 
 }
 
+aside ul li img{
+    width: 18px;
+}
+
 .total-contact-btn{
     background-color: #2DA5FC;
     border-radius: 6px;
     justify-content: center;
-    font:600 18px "Titillium Web", sans-serif;
-    color: white;
+    font:600 17px "Titillium Web", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .dashboard-btn{
-    font:600 18px "Titillium Web", sans-serif;
+    font:600 15px "Titillium Web", sans-serif;
     
 }
 .logOut-btn{
-    font:400 16px "Titillium Web", sans-serif;
+    font:400 14px "Titillium Web", sans-serif;
     position:relative;
-    top: 300px;
+    top: 31rem;
     
 }
 
 .btn-style-line{
-    height: 35px;
-    border:1.6px solid white;
-    margin-left: 9px;
+    height: 30px;
+    border:1.5px solid white;
     border-radius: 5px;
 }
 
+.aside-bottom-line{
+    position: absolute;
+    left: 0;
+    bottom: -5rem;
+    width: 198px;
+    border: 2px solid #eaeaea;
+}
 /*Here, header style is begun*/
 header{
     display: flex;
@@ -119,20 +128,112 @@ header input::placeholder{
     top: 5px;
 }
 
-.aside-bottom-line{
-    position: absolute;
-    left: 0;
-    bottom: 100px;
-    width: 217.3px;
-    border: 2px solid #eaeaea;
-}
+
 
 /*Here, table style is begun*/
 .table-area{
     background-color: #fbfbfb;
+    margin: 20px 15px;
+    border-radius: 15px;
 }
 
-.table-area-header ul{
-    list-style: none;
+.table-header{
+    display: flex;
+    gap: 565px;
+}
 
+.table-header ul{
+    list-style: none;
+    display: flex;
+    margin: 23px 20px;
+}
+
+.table-header ul li{
+    background-color: #fff;
+    padding: 10px 15px;
+    font:400 12px "Titillium Web", sans-serif;
+    border-radius:10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.table-header ul li img{
+    width: 20px;
+    height: 16px;
+}
+.table-header-start{
+    gap: 30px;
+}
+
+.table-header-end{
+    gap: 10px;
+}
+
+.btn-filter-style-line{
+    height: 20px;
+    border:1.6px solid #7D7D7D;
+}
+
+table{
+    border-collapse: collapse;
+    margin:0px 20px;
+}
+table thead{
+    background-color:#B2DFFF;
+    
+}
+
+table thead th{
+    padding: 15px;
+    font:600 16px "Titillium Web", sans-serif;
+    color: rgba(56, 50, 40, 0.8);
+    text-align: left;
+}
+
+table thead th:nth-child(-n+1){
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+table thead th:nth-last-child(-n+1){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 80px;
+
+}
+
+.table-head-style-line{
+    width: 0;
+    height: 30px;
+    border:1.6px solid #7D7D7D;
+}
+
+table tbody td{
+    padding: 18px 18px;
+    font:600 14px "Titillium Web", sans-serif;
+}
+
+table tbody td:nth-child(-n+1){
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+table tbody td:nth-last-child(-n+1){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 78px;
+    display: flex;
+    gap: 12px;
+}
+
+table tbody tr:nth-child(even){
+    background-color: rgba(178,223,255,0.3);
+}
+
+table tbody tr:hover{
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.2);
 }
